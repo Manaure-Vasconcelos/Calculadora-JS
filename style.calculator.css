@@ -1,0 +1,61 @@
+/* asterisco formata todos os elementos. */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--body-bg: #fafafa;
+	--body-color: #555;
+}
+
+.dark-mode:root {
+	--body-bg: #212529;
+	--body-color: #899095;
+}
+
+.fundo{
+	background-image: linear-gradient(20deg,rgba(0, 0, 0, 0.9), rgb(44, 29, 255)); /* Para fazer uma transição, escolhe o tamanho e as cores. */
+	height: 100vh; /* v= view, h= height ; siginifica a toda a altura visivel do navegador */
+	color: #ffff;
+	font-family: arial, sans-serif;
+	text-align: center;
+	padding-top: 20px;
+}
+.calculator{
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #ffff;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%); /* Para alinhar o elemento ao centro. */
+	border-radius: 15px;
+	padding: 15px;
+	text-align: center;
+}
+.button {
+	margin: 4px;
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	cursor: pointer; /* Para mudar o cursor quando passar por cima. */
+	background-color: rgb(31, 31, 31);
+	border: none;
+	color: #ffff;
+	border-radius: 25px;
+}
+.button:hover {
+	background-color: rgba(0,0,0,.7);
+}
+#resultado {
+	background-color: #ffff;
+	color: black;
+	width: 220px;
+	height: 30px;
+	margin: 5px;
+	font-size: 25px;
+	text-align: right;
+	padding: 5px;
+	border-radius: 4px;
+	
+}
