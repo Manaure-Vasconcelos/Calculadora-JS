@@ -13,14 +13,21 @@
 	--body-bg: #212529;
 	--body-color: #899095;
 }
-
-.fundo{
+body {
 	background-image: linear-gradient(20deg,rgba(0, 0, 0, 0.9), rgb(44, 29, 255)); /* Para fazer uma transição, escolhe o tamanho e as cores. */
 	height: 100vh; /* v= view, h= height ; siginifica a toda a altura visivel do navegador */
 	color: #ffff;
+}
+.fundo{
 	font-family: arial, sans-serif;
 	text-align: center;
 	padding-top: 20px;
+}
+footer{
+	display: block;
+	position: relative;
+	text-align: center;
+	top: 80%;
 }
 .calculator{
 	position: absolute;
